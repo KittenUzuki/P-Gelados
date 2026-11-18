@@ -49,6 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Scripts/Editor/ReadmeEditor.cs" />
+    <Compile Include="Assets/Scripts/Editor/PGeladosSetup.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -1068,7 +1068,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48a3c251d3ace4ea49b597efa5212e21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CameraFollow
-  target: {fileID: 0}
+  target: {fileID: 822618456}
   offset: {x: 0, y: 5, z: -8}
   smooth: 5
 --- !u!1 &628261018
@@ -1445,7 +1445,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 028f9c4116b66a1489e53be9e8fa4553, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.8601
+      value: -0.8
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 028f9c4116b66a1489e53be9e8fa4553, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1453,7 +1453,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 028f9c4116b66a1489e53be9e8fa4553, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 72.03
+      value: -4
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 028f9c4116b66a1489e53be9e8fa4553, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1499,9 +1499,6 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 028f9c4116b66a1489e53be9e8fa4553, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 822618456}
     - targetCorrespondingSourceObject: {fileID: 5741231779967640478, guid: 028f9c4116b66a1489e53be9e8fa4553, type: 3}
       insertIndex: -1
       addedObject: {fileID: 822618459}
@@ -1512,32 +1509,16 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 822618457}
   m_SourcePrefab: {fileID: 100100000, guid: 028f9c4116b66a1489e53be9e8fa4553, type: 3}
---- !u!1 &822618454 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 028f9c4116b66a1489e53be9e8fa4553, type: 3}
-  m_PrefabInstance: {fileID: 822618453}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &822618455 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5741231779967640478, guid: 028f9c4116b66a1489e53be9e8fa4553, type: 3}
   m_PrefabInstance: {fileID: 822618453}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &822618456
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+--- !u!4 &822618456 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 028f9c4116b66a1489e53be9e8fa4553, type: 3}
+  m_PrefabInstance: {fileID: 822618453}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 822618454}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a98fd6af1ac7847eea0a217fd45838a8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerController
-  moveSpeed: 6
-  swimSpeed: 5
-  jumpForce: 7
-  cam: {fileID: 0}
 --- !u!135 &822618457
 SphereCollider:
   m_ObjectHideFlags: 0
